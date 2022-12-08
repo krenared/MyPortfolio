@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- 
+    Student's Name: Krenare Deshishku
+    web210
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>apply</title>
+</head>
+<body>
+    <!-- Header area is used for the website name or logo -->
+	<header>
+		<h1>Krenare Deshishku</h1>
+	</header>
+        
+    <!--  Nav area is used to add hyperlinks to other pages within the website -->
+	<nav>
+		<ul>
+			<!--<li><a href="../index.html" target="_blank">Home</a></li>
+			<li><a href="product.html" target="_blank">Product</a></li>
+			<li><a href="ourhistory.html" target="_blank">Our History</a></li> -->
+			<li><a href="apply.html">APPLY</a></li>
+	
+		</ul>
+	</nav>
+	<main>
+		<h2>MAKE A REQUEST ON WHAT YOU NEED</h2>
+		<P>Fill out this form and we will take care of you.</P>
+		<h4><a href="../index.html">RETURN TO HOMEPAGE</a></h4>
+	<!--Form for user to register for an appoitment in the store-->
+	<form id="questions" method="post" name="questions">
+		
+	<!--Text boxes for user Name, Email and Phone-->
+		<fieldset>
+			<legend>CLIENT INFORMATION</legend> 
+		<ul>
+		<li>	
+			<label>Name</label>
+			<input id="name" name="name" type="text">
+		</li>
+		<li>
+			<label>Email Address</label>
+			<input id="email" name="email" type="email" placeholder="email@example.com">
+		</li>
+		<li>
+			<label>Phone</label>
+			<input id="phone" name="phone" type="tel">
+		</li>
+		</ul>
+		</fieldset> 
+	
+		<!--user can chose from  drop down selection list type of service -->
+		<fieldset>
+			<legend>TYPE OF SERVICE</legend>  
+			<label>Service:</label> 
+					<select id="service" name="service">
+						<option value="Repair">Advertismet</option>
+						<option value="Buy">Web Design</option>
+						<option value="Rent">Design Graphic</option>
+						</select>
+	
+		</fieldset>
+	
+		<!--user can chose from  radio buttons preferred time
+		<fieldset>
+			<legend>PRODUCT TYPE</legend> 
+	
+			<input id="bikes" name="favcolor" type="checkbox" value="bikes"> 
+			<label>bikes</label> 
+	
+			<input id="motorcycles" name="favcolor" type="checkbox" value="motorcycles"> 
+			<label>motorcycles</label> 
+	
+			<input id="evening" name="favcolor" type="checkbox" value="evening"> 
+			<label>tricycle</label>
+	
+		</fieldset> -->
+		<fieldset>
+	
+		<fieldset>
+			<legend>STORE LOCATION</legend> 
+	
+			<input id="South" name="favcolor" type="radio" value="South"> 
+			<label for="South">South Store</label> 
+	
+			<input id="downtown" name="favcolor" type="radio" value="downtown"> 
+			<label>Downtown</label> 
+		</fieldset>
+		<!--submit information-->
+	   
+		   <h3><button class="submit" type="submit">SUBMIT</button></h3>
+	</form>
+	
+<!-- The footer area is used to add webpage footer content -->
+</main>
+<footer>
+   
+	<a href="https://twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+	<a href="https://Facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<h3>WEB210 Project  ©2022 KRENARE DESHISHKU</h3>
+</footer>
+</body>
+
+</html>

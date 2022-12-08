@@ -1,0 +1,265 @@
+/*Author: Krenare Deshishku
+Date: fall/2022
+File Name: / project WEB 210
+*/
+
+
+/* Style rule for body */
+body {
+	background-color: #f6eee1;
+	width: 80%;
+    margin:  auto;
+	
+}
+
+
+/* Style rule for header */
+header {
+	font-family: Calibri, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #cea576;
+	color: #fff;
+	padding: 1%;
+    text-align: center;
+}
+/* style rule for headers/titles */
+h1, h2, h3, h4 {
+	color: #8d5714;
+	text-align: center;
+}
+/* style rule for different link of website */
+a {
+
+	font-weight: bolder;
+	color: #bb0776;
+	
+	
+	
+}
+
+
+/* responsive logo/image */
+.logo {
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+/* Style rules for nav area */
+nav {
+	background-color: #cea576;
+	padding: 0.5%;
+    text-align: center;
+	border-radius: 50%;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+nav li {
+	display: inline;
+	border-radius: 50%;
+}
+
+nav li a {
+	color: #fff;
+	padding: 2% 4%;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+  /* selected link */
+  nav li a:active {
+    color: #c8dbE3;
+
+	
+  } 
+
+
+  nav li a:hover {
+    background-color: #e3e0c8;
+
+}
+  
+  
+
+    /* Style rules for main area */
+
+	main {
+		display: block;
+		font-family: Calibri, Arial, sans-serif;
+		font-size: 1em;
+		padding: 1em;
+		background-color: #f6eee1;
+		width: 80%;
+		margin: auto;
+		
+		
+	} 
+
+  /* style rules for image of homepage body*/
+    .pic2 {
+		width: 40%;
+		border-radius: 10%;
+		max-width: 100%;
+	    height: auto;
+	    object-fit: contain;
+		padding: 3%;
+		float: left;
+		
+	}
+/* Style rule for text */
+	p { 
+		font-family: Calibri, Arial, sans-serif;
+		font-size: large;
+		font-weight:600;
+		color: #8d5714;
+		text-align: center;
+		margin-left: 10%;
+		margin-right: 10%;
+		
+	}
+
+	/* Style rule for footer */
+	footer {
+		
+		text-align: center;
+		color: #8d5714;
+		padding-bottom: 0.5%;
+	}
+	/* style for social media icons */
+	ion-icon {
+		margin-top: 1%;
+	}
+
+/* Style rule for form page within Order/Rent page */
+fieldset {
+	border: none;
+    text-align: center;
+    margin: auto;
+    background-color: #f0f3eb;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: large;
+	font-weight:400;
+	color: #cea576;
+	width: 50%;
+}
+fieldset li {
+	display:block;
+	padding: 0.5%;
+
+}
+label {
+	cursor: default;
+	width: 5em;
+	display: inline-block;
+}
+legend {
+	background-color: #cea576;
+	color: #fff;
+	padding: 3%;
+	font-weight: bold;
+	border-radius: 50%;
+	text-align: start;
+	
+}
+button {
+	background-color: #cea576;
+	color: #fff;
+	padding: 1%;
+	font-weight: bold;
+	text-align: center;
+}
+/*style rules for Contact Page */
+
+/*style rule for form fieldsed within the contact page*/
+
+.contactform {
+
+	width: 40%;
+	border-radius: 10%;
+	max-width: 100%;
+    height: auto;
+    object-fit: contain;
+	margin: auto;
+	float: right;
+}
+.contactusimg {
+	width: 40%;
+	border-radius: 10%;
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+	margin: inherit;
+		
+}
+article {
+	float: left;
+    width: 50%;
+    margin-top: 0%;
+}
+
+/* style for hero image and text */
+
+body, html {
+    height: 100%;
+}
+
+
+/* The hero image style rules */
+.hero-image {
+
+  background-image: linear-gradient(#e9dcdc00, #d6adad11), url("../images/pic1.png");
+  width: 500px;
+  height: 500px;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10%;
+  display: table;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  transform: translate(100%, 50%);
+  color: white;
+  
+}
+/* style rule for product page*/
+
+/*style rule for hero image */
+.colcontent{
+	width: 30%;
+    float: left;
+    padding: 1.5%;
+}
+.tablet-desktop {
+	display: block;
+	width: 100%;
+	object-fit: contain;
+}
+
+.heroimg1 {
+	display: block;
+	width: 100%;
+	object-fit: contain;
+	border-radius: 10%;
+}
+/* style rule of pictures for gallery of Motorcycle,Bicycle,Tricycle pages */
+.gallery {
+	display: block;
+	padding: 1%;
+	width: 100%;
+	object-fit: contain;
+	border-radius: 10%;
+}
+.col-content {
+	width: 30%;
+    display: inline-block;
+    padding: 1.5%;
+
+}
